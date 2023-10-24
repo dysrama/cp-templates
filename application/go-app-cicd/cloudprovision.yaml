@@ -15,7 +15,7 @@ create:
     name: gcr.io/cloud-builders/git
     entrypoint: bash
     args: ["-c",
-      "git clone -b main https://github.com/cgrant/cp-utils.git utils"]
+      "git clone -b main https://github.com/dysrama/cp-utils.git utils"]
   - id: createApp
     name: ubuntu
     env:
